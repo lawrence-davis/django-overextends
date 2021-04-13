@@ -14,9 +14,9 @@ setup(
     zip_safe = False,
     include_package_data = True,
     packages = find_packages(),
-    install_requires = [
-        "django >= 1.8, < 2.0",
-    ],
+    #install_requires = [
+    #    "django >= 1.8, < 2.0",
+    #],
     extras_require = {
         'dev': [
             "sphinx-me >= 0.1.2",
